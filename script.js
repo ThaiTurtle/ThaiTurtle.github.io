@@ -313,7 +313,7 @@ function saveRobux() {
   localStorage.setItem('robux', robux);
 }
 
-function fakePayment(event) {
+function Payment(event) {
   event.preventDefault();
   const amount = parseInt(document.getElementById('robuxAmount').value);
   if (!isNaN(amount) && amount > 0) {
