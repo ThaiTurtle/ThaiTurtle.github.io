@@ -320,7 +320,7 @@ function Payment(event) {
     robux += amount;
     updateBalance();
     saveRobux();
-    alert(`Ви купили ${amount} робуксів!`);
+ 
     goToMenu();
   } else {
     alert("Введіть коректну кількість робуксів");
